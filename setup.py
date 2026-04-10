@@ -26,6 +26,7 @@ setup(
     entry_points={
         'console_scripts': [
             'scanner_node=turtle_Scanner.spawn_target:main',
+            'turtle_scanner_node=turtle_Scanner.turtle_scanner_node:main',
         ],
     },
 )
