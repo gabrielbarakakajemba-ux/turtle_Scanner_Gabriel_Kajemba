@@ -22,8 +22,10 @@ setup(
             'pytest',
         ],
     },
+    
     entry_points={
         'console_scripts': [
+            "spawn_target=turtle_Scanner.spawn_target:main",
         ],
     },
 )
