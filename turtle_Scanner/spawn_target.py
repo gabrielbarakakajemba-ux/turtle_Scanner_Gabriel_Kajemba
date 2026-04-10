@@ -11,7 +11,7 @@ class SpawnTarget(Node):
         self.client = self.create_client(Spawn, '/spawn')
 
         while not self.client.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('Service en attente...')
+            self.get_logger().info('Service en attente.....')
 
         self.spawn_target()
 
